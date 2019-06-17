@@ -1,0 +1,4 @@
+查看共享目录：
+	showmount -e
+挂载文件系统：
+	mount -t nfs -o nolock,vers=2 192.168.1.190:/work/platform-2440/js2440_dtb/qt_project/jz2440_drv /mnt
